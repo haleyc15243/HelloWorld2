@@ -14,5 +14,7 @@ public class HelloWorld {
 		System.out.println("Hi Charlie");
 		System.out.println("Hi Denise");
 		System.out.println("Goodbye!");
+		System.out.println("Free memory (bytes): " + 
+				Runtime.getRuntime().freeMemory());
 	}
 }
